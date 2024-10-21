@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feladat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Üdvözöllek az oldalamon!</h1>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="https://via.placeholder.com/100" alt="Profilkép">
+            <h2>Neved</h2>
+            <p>Egy rövid bemutatkozás rólad.</p>
+            <a href="#" class="project-button">CV</a>
+        </div>
+    </div>
+
+    <div class="cards-container" id="cardsContainer">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    Cards
+                </div>
+                <div class="card-back">
+                    <p>Ez egy 10.b-ben készült projekt ami a cards-ok használatát segítette.</p>
+                    <a href="https://sanyi42.github.io/Cards/" target="_blank" class="project-button">További infó</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                   KIFU
+                </div>
+                <div class="card-back">
+                    <p>Egy elégedettségi kérdőív</p>
+                    <a href="https://sanyi42.github.io/Projekt2/" target="_blank" class="project-button">További infó</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                   Ágazati
+                </div>
+                <div class="card-back">
+                    <p>Ágazati vizsga mert ezt találtam</p>
+                    <a href="https://sanyi42.github.io/agazati/" target="_blank" class="project-button">További infó</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<button id="chatbot-button">Chat</button>
+
+<div id="chatbot-window">
+    <div id="chatbot-header">
+        Chatbot
+        <span id="chatbot-close">&times;</span>
+    </div>
+    <div id="chatbot-body">
+        <p>Üdv! Miben segíthetek?</p>
+    </div>
+    <input type="text" id="chatbot-input" placeholder="Írja be az üzenetét...">
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
